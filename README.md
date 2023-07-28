@@ -1,4 +1,4 @@
-#cursed data
+# cursed data
 
 ## Audio
 
