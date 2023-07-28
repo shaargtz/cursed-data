@@ -47,7 +47,7 @@
 #X connect 19 0 17 0;
 #X coords 0 -1 1 1 296 96 2 100 100;
 #X restore 45 42 pd play;
-#N canvas 0 85 1422 621 note_module 1;
+#N canvas 0 85 1422 621 note_module 0;
 #X floatatom 185 59 5 0 0 0 - - - 0;
 #X obj 185 77 sel 1;
 #X obj 185 112 bng 29 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
@@ -878,6 +878,7 @@
 #X connect 8 0 38 0;
 #X connect 8 0 34 0;
 #X connect 8 0 30 0;
+#X connect 8 0 18 0;
 #X connect 9 0 0 0;
 #X connect 10 0 3 0;
 #X connect 12 0 15 0;
