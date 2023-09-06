@@ -42,6 +42,13 @@
 #X obj 438 44 metro;
 #X obj 363 52 *~ 16.5;
 #X obj 363 28 osc~ 0.02;
+#X obj 443 192 *~ 4.5;
+#X obj 443 216 +~ 8.5;
+#X obj 443 240 snapshot~;
+#X obj 516 189 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
+#X obj 516 213 metro 100;
+#X obj 443 168 osc~ 0.2;
+#X floatatom 496 145 5 0 1 0 - - - 0;
 #X connect 0 0 21 0;
 #X connect 0 1 21 1;
 #X connect 1 0 32 0;
@@ -82,3 +89,10 @@
 #X connect 40 0 38 0;
 #X connect 41 0 37 0;
 #X connect 42 0 41 0;
+#X connect 43 0 44 0;
+#X connect 44 0 45 0;
+#X connect 45 0 7 0;
+#X connect 46 0 47 0;
+#X connect 47 0 45 0;
+#X connect 48 0 43 0;
+#X connect 49 0 48 1;
