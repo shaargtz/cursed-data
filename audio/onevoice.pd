@@ -1,0 +1,14 @@
+#N canvas 202 292 724 300 12;
+#X obj 37 105 osc~;
+#X obj 37 129 *~ 0.5;
+#X obj 35 14 inlet;
+#X obj 37 81 mtof;
+#X msg 37 41 \$1;
+#X obj 130 60 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
+#X obj 37 153 throw~ signalSound;
+#X connect 0 0 1 0;
+#X connect 1 0 6 0;
+#X connect 2 0 4 0;
+#X connect 3 0 0 0;
+#X connect 4 0 3 0;
+#X connect 4 0 5 0;

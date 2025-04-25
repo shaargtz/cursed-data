@@ -1,0 +1,11 @@
+#N canvas 565 346 450 300 12;
+#X obj 37 37 notein;
+#X msg 37 61 next \$1;
+#X obj 194 109 onevoice;
+#X obj 155 186 catch~ signalSound;
+#X obj 155 210 dac~;
+#X msg 52 173;
+#X obj 34 122 clone onevoice 32;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 1 0 6 0;
